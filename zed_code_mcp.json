@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "adara_mcp": {
+      "command": "python3",
+      "args": [
+        "C:\\Users\\kishw\\OneDrive\\Desktop\\Adara_mcp-main\\Adara_mcp-main\\adara_mcp_server.py",
+        "--server",
+        "http://192.168.1.15:5000"
+      ]
+    }
+  }
+}

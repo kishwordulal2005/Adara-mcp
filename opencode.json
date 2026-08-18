@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "adara_mcp": {
+      "type": "local",
+      "command": [
+        "python",
+        "D:\\kishw\\Adara_mcp\\adara_mcp_server.py",
+        "--server",
+        "http://192.168.1.13:5000"
+      ],
+      "enabled": true,
+      "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONLEGACYWINDOWSSTDIO": "utf-8"
+      },
+      "autoApprove": [
+        "save_finding",
+        "execute_command",
+        "parallel_scan"
+      ]
+    }
+  }
+}
